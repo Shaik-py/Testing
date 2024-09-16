@@ -5,7 +5,7 @@ rmgn=1/BREAKFAST ROOM:|BM
 rmgn=KITCHEN:|KI
 rmgn=1/KITCHEN:|KI
 
-rmdn=DINING ROOM:|DA
+rmdn=DINING ROOM:|Shaik
 rmdn=1/DINING ROOM:|DA
 
 
