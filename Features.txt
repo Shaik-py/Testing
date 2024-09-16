@@ -1,0 +1,1421 @@
+﻿rmgn=GUEST ROOM:|GN
+rmgn=1/GUEST ROOM:|GN
+rmgn=BREAKFAST ROOM:|BM
+rmgn=1/BREAKFAST ROOM:|BM
+rmgn=KITCHEN:|KI
+rmgn=1/KITCHEN:|KI
+
+rmdn=DINING ROOM:|DA
+rmdn=1/DINING ROOM:|DA
+
+
+inst=ACTIVE-BREAK CLAUSE|A
+MLSinst=ACTIVE-BREAK CLAUSE|ABC
+inst=COMING SOON-NO SHOW|E
+MLSinst=COMING SOON-NO SHOW|R05
+
+daggField=ex_construction
+***sourceField=[Construction]
+***SystemName=[LFD_CONSTRUCTION_82] Class=[CI_4]
+***SystemName=[LFD_CONSTRUCTION_8] Class=[RE_1]
+***SystemName=[LFD_CONSTRUCTION_107] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+exco=ALUMINUM/STEEL|AS
+exco=BRICK|BK
+exco=BRICK & FRAME|BR
+exco=CEMENT FIBER BOARD|CF
+exco=CONCRETE|CE
+exco=CONCRETE BLOCK|XP
+exco=CONCRETE/BLOCK|CE
+exco=FRAME/WOOD|FR
+exco=GLASS|GL
+exco=OTHER|OT
+exco=SHINGLE|SH
+exco=SIDING-ASBESTOS|E3
+exco=SIDING-MASONITE|MA
+exco=SIDING-METAL|MT
+exco=SIDING-OTHER|OS
+exco=SIDING-VINYL|VS
+exco=SIDING-WOOD|WS
+exco=STONE|SN
+exco=STONE/ROCK|SN
+exco=STUCCO|ST
+exco=TILT-UP CONCRETE|TU
+exco=VINYL/METAL TRIM|VY
+exco=WOOD|WD
+***sourceField=[Interior]
+***SystemName=[LFD_INTERIOR_89] Class=[CI_4]
+***propertyType=[CI_4 - COMMERCIAL]
+exco=BLOCK|BL
+exco=CONCRETE|CE
+exco=MASONRY|MA
+exco=PLASTER|PI
+
+daggField=ex_exterior_wall
+***sourceField=[Construction]
+***SystemName=[LFD_CONSTRUCTION_82] Class=[CI_4]
+***SystemName=[LFD_CONSTRUCTION_8] Class=[RE_1]
+***SystemName=[LFD_CONSTRUCTION_107] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+exew=SIDING-HARDIPLANK|35
+
+daggField=ex_fence
+***sourceField=[Exterior Features]
+***SystemName=[LFD_EXTERIORFEATURES_12] Class=[RE_1]
+***SystemName=[LFD_EXTERIORFEATURES_113] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+exfc=FENCED YARD|YD
+exfc=FENCE-FULL|FN
+exfc=FENCE-PARTIAL|PA
+exfc=FENCE-PRIVACY|PF
+***sourceField=[Pool Features]
+***SystemName=[LFD_POOLFEATURES_34] Class=[RE_1]
+***SystemName=[LFD_POOLFEATURES_130] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+exfc=PERIMETER FENCING|PR
+
+daggField=ex_foundation
+***sourceField=[Construction]
+***SystemName=[LFD_CONSTRUCTION_82] Class=[CI_4]
+***SystemName=[LFD_CONSTRUCTION_8] Class=[RE_1]
+***SystemName=[LFD_CONSTRUCTION_107] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+exfd=BRICK OVER FOUNDATION|BO
+***sourceField=[Foundation]
+***SystemName=[LFD_FOUNDATION_68] Class=[MU_3]
+***SystemName=[LFD_FOUNDATION_19] Class=[RE_1]
+***SystemName=[LFD_FOUNDATION_118] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, MU_3 - MULTIFAMILY, RN_5 - RENTAL]
+exfd=CRAWL SPACE|CS
+exfd=PILLARS/SUPPORT|PO
+exfd=SLAB|FO
+
+daggField=ex_garage
+***sourceField=[Parking Features]
+***SystemName=[LFD_PARKINGFEATURES_33] Class=[RE_1]
+***SystemName=[LFD_PARKINGFEATURES_128] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+exga=GARAGE 1 CAR|Q9
+
+daggField=ex_general
+***sourceField=[Amenities]
+***SystemName=[LFD_AMENITIES_46] Class=[LD_2]
+***SystemName=[LFD_AMENITIES_1] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+exgn=AIRSTRIP|AI
+exgn=BBQ AREA|BQ
+exgn=FISHING|FF
+exgn=PLAYGOUND|PG
+exgn=SIDEWALKS|SW
+exgn=STREET LIGHTS|SG
+exgn=WALKING TRAILS|E6
+***sourceField=[Exterior Features]
+***SystemName=[LFD_EXTERIORFEATURES_12] Class=[RE_1]
+***SystemName=[LFD_EXTERIORFEATURES_113] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+exgn=BARN|BD
+exgn=GAZEBO|GZ
+exgn=GREENHOUSE|GH
+exgn=GUEST QUARTERS|GQ
+exgn=HOT TUB|HW
+exgn=OUTDOOR GRILL|GO
+exgn=PORCH SCREENED|7I
+exgn=SATELLITE DISH|TS
+exgn=STORAGE BUILDING|KH
+exgn=TENNIS COURT|TC
+exgn=WORKSHOP|WK
+***sourceField=[Interior Features]
+***SystemName=[LFD_INTERIORFEATURES_21] Class=[RE_1]
+***SystemName=[LFD_INTERIORFEATURES_120] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+exgn=SAFE ROOM/STORM CELLAR|SM
+***sourceField=[Lot Description]
+***SystemName=[LFD_LOTDESCRIPTION_51] Class=[LD_2]
+***SystemName=[LFD_LOTDESCRIPTION_29] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+exgn=GOLF COMMUNITY|GK
+
+daggField=ex_general_land
+***sourceField=[Amenities]
+***SystemName=[LFD_AMENITIES_46] Class=[LD_2]
+***SystemName=[LFD_AMENITIES_1] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+exgl=POND|PN
+***sourceField=[Exterior Features]
+***SystemName=[LFD_EXTERIORFEATURES_12] Class=[RE_1]
+***SystemName=[LFD_EXTERIORFEATURES_113] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+exgl=POND|PN
+
+daggField=ex_location
+***sourceField=[Bldg Front/Lot Access]
+***SystemName=[LFD_BLDGFRONTLOTACCESS_106] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+exlc=CORNER LOT|CX
+exlc=CUL-DE-SAC|CD
+exlc=GOLF COURSE|OG
+***sourceField=[Lot Description]
+***SystemName=[LFD_LOTDESCRIPTION_51] Class=[LD_2]
+***SystemName=[LFD_LOTDESCRIPTION_29] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+exlc=CORNER LOT|CX
+exlc=CREEK|FT
+exlc=CUL-DE-SAC|CD
+exlc=HILLY|HR
+exlc=INTERIOR LOT|IR
+exlc=SUBDIVISION|SU
+
+daggField=ex_lot_size
+***sourceField=[Amenities]
+***SystemName=[LFD_AMENITIES_46] Class=[LD_2]
+***SystemName=[LFD_AMENITIES_1] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+exls=HORSE FACILITIES|HP
+***sourceField=[Lot Description]
+***SystemName=[LFD_LOTDESCRIPTION_51] Class=[LD_2]
+***SystemName=[LFD_LOTDESCRIPTION_29] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+exls=ACREAGE|AA
+exls=IRREGULAR LOT|IR
+exls=LEVEL LOT|LE
+exls=PASTURE|PA
+exls=SLOPING LOT|SP
+exls=SOME TREES|TR
+exls=VACANT|VA
+
+daggField=ex_parking
+***sourceField=[Parking Features]
+***SystemName=[LFD_PARKINGFEATURES_33] Class=[RE_1]
+***SystemName=[LFD_PARKINGFEATURES_128] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+expk=ASSIGNED|HZ
+expk=BOAT PARKING|1G
+expk=CARPORT 1 CAR|SL
+expk=CARPORT 2 CARS|2P
+expk=CARPORT 3+ CARS|3P
+expk=CIRCULAR DRIVE|1R
+expk=DRIVEWAY PARKING|DR
+expk=GARAGE 2 CARS|2C
+expk=GARAGE 3 CARS|3C
+expk=LOWER LEVEL|LL
+expk=MAIN LEVEL|ML
+expk=METAL CARPORT 1 CAR|SL
+expk=METAL CARPORT 2 CARS|2P
+expk=METAL CARPORT 3+ CARS|3P
+expk=OFF STREET PARKING|OF
+expk=ON STREET PARKING|OR
+expk=PARKING DECK|CK
+expk=RV PARKING|1L
+expk=UNASSIGNED PARKING|UA
+expk=UNCOVERED PARKING|UN
+***sourceField=[Parking(lookupmulti)]
+***SystemName=[LFD_PARKING_92] Class=[CI_4]
+***propertyType=[CI_4 - COMMERCIAL]
+expk=ASSIGNED|HZ
+expk=OFF STREET - PRIVATE|OF
+expk=OFF STREET – PUBLIC|OF
+expk=ON STREET|OR
+expk=PARKING DECK|CK
+expk=UNASSIGNED|UA
+
+daggField=ex_patio
+***sourceField=[Exterior Features]
+***SystemName=[LFD_EXTERIORFEATURES_12] Class=[RE_1]
+***SystemName=[LFD_EXTERIORFEATURES_113] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+expt=BALCONY|BA
+expt=PORCH|PR
+***sourceField=[Patio]
+***SystemName=[LFD_PATIO_32] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+expt=COVERED|PC
+expt=OPEN|FI
+expt=SCREENED|PS
+***sourceField=[Patio/Porch]
+***SystemName=[LFD_PATIOPORCH_129] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+expt=COVERED|PC
+expt=OPEN|FI
+expt=SCREENED|PS
+
+daggField=ex_pool
+***sourceField=[Pool (Y/N)]
+***SystemName=[LM_char1_38] Class=[RE_1]
+***SystemName=[LM_char1_38] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+expl=YES|CP
+***sourceField=[Pool Features]
+***SystemName=[LFD_POOLFEATURES_34] Class=[RE_1]
+***SystemName=[LFD_POOLFEATURES_130] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+expl=ABOVE GROUND|AG
+expl=CLEANING SYSTEM|8M
+expl=HEATED|HT
+expl=INDOOR|ID
+expl=IN-GROUND|IG
+expl=POOL ABOVE GROUND|AG
+expl=POOL EQUIPMENT|YP
+expl=POOL IN-GROUND|IG
+expl=SALT WATER|MG
+***sourceField=[Pool Type]
+***SystemName=[LM_Char10_19] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+expl=PERSONAL POOL|CP
+
+daggField=ex_road
+***sourceField=[Road Access]
+***SystemName=[LFD_ROADACCESS_54] Class=[LD_2]
+***propertyType=[LD_2 - LAND/LOTS]
+exrd=CITY ROAD|CI
+exrd=COUNTY ROAD|CR
+exrd=DIRT ROAD|DI
+exrd=EASEMENT|ES
+exrd=GRAVEL ROAD|GR
+exrd=HIGHWAY|UH
+exrd=PAVED ROAD|PV
+
+daggField=ex_sprinkler
+***sourceField=[Exterior Features]
+***SystemName=[LFD_EXTERIORFEATURES_12] Class=[RE_1]
+***SystemName=[LFD_EXTERIORFEATURES_113] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+exsk=SPRINKLING SYSTEM|SK
+exsk=UNDERGROUND SPRINKLER|IG
+
+daggField=ex_style
+***sourceField=[Attic]
+***SystemName=[LFD_ATTIC_2] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+exsy=WALK-UP|WU
+***sourceField=[Design]
+***SystemName=[LFD_DESIGN_111] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+exsy=SPLIT FOYER|SF
+
+daggField=ex_subdivision
+***sourceField=[Amenities]
+***SystemName=[LFD_AMENITIES_46] Class=[LD_2]
+***SystemName=[LFD_AMENITIES_1] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+exsu=WALKING PATHS|JP
+
+daggField=ex_view
+***sourceField=[Lot View]
+***SystemName=[LFD_LOTVIEW_52] Class=[LD_2]
+***SystemName=[LFD_LOTVIEW_30] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+exvw=CITY VIEW|VN
+exvw=LAKE/WATER VIEW|VL
+exvw=MOUNTAIN VIEW|MT
+
+daggField=ex_wateraccess
+***sourceField=[Amenities]
+***SystemName=[LFD_AMENITIES_46] Class=[LD_2]
+***SystemName=[LFD_AMENITIES_1] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+exwa=PRIVATE LAKE|9H
+
+daggField=ex_waterfront
+***sourceField=[Waterfront (Y/N)]
+***SystemName=[LM_char5_7] Class=[RE_1]
+***SystemName=[LM_char5_7] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+exwf=YES|WF
+
+daggField=ex_waterstructures
+***sourceField=[Exterior Features]
+***SystemName=[LFD_EXTERIORFEATURES_12] Class=[RE_1]
+***SystemName=[LFD_EXTERIORFEATURES_113] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+exws=BOAT HOUSE PRIVATE|BO
+
+daggField=if_appliance
+***sourceField=[Energy Green Features]
+***SystemName=[LFD_ENERGYGREENFEATURES_11] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifap=ENERGY STAR APPLIANCES|AO
+***sourceField=[Heating]
+***SystemName=[LFD_HEATING_88] Class=[CI_4]
+***SystemName=[LFD_HEATING_69] Class=[MU_3]
+***SystemName=[LFD_HEATING_20] Class=[RE_1]
+***SystemName=[LFD_HEATING_119] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, MU_3 - MULTIFAMILY, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+ifap=HUMIDFIER|HD
+***sourceField=[Interior Features]
+***SystemName=[LFD_INTERIORFEATURES_21] Class=[RE_1]
+***SystemName=[LFD_INTERIORFEATURES_120] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+ifap=CENTRAL VACUUM|CV
+ifap=DRYER|DR
+ifap=INTERCOM|IC
+ifap=INTERCOM SYSTEM|IC
+ifap=WASHER|WA
+***sourceField=[Kitchen Equipment]
+***SystemName=[LFD_KITCHENEQUIPMENT_24] Class=[RE_1]
+***SystemName=[LFD_KITCHENEQUIPMENT_121] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+ifap=COMPACTOR BUILT-IN|TC
+ifap=CONVECTION OVEN|CO
+ifap=COOKTOP-ELECTRIC|EC
+ifap=COOKTOP-GAS|GC
+ifap=DISHWASHER BUILT-IN|DW
+ifap=DISPOSAL|A2
+ifap=DOUBLE OVEN|K8
+ifap=FREEZER|K1
+ifap=ICE MAKER BUILT-IN|IM
+ifap=INDOOR GRILL|IG
+ifap=MICROWAVE BUILT-IN|Q6
+ifap=OVEN-ELECTRIC|EO
+ifap=OVEN-GAS|OG
+ifap=REFRIGERATOR|RF
+ifap=STOVE-ELECTRIC|EC
+ifap=STOVE-GAS|GC
+***sourceField=[Type 1 Features]
+***SystemName=[LFD_TYPE1FEATURES_77] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+ifap=DISHWASHER|DW
+ifap=REFIGERATOR|RF
+ifap=STOVE|ST
+***sourceField=[Type 2 Features]
+***SystemName=[LFD_TYPE2FEATURES_78] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+ifap=DISHWASHER|DW
+ifap=REFIGERATOR|RF
+ifap=STOVE|ST
+***sourceField=[Type 3 Features]
+***SystemName=[LFD_TYPE3FEATURES_79] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+ifap=DISHWASHER|DW
+ifap=STOVE|ST
+
+daggField=if_basement
+***sourceField=[Basement Style]
+***SystemName=[LFD_BASEMENTSTYLE_62] Class=[MU_3]
+***SystemName=[LFD_BASEMENTSTYLE_3] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, MU_3 - MULTIFAMILY]
+ifbs=FULL BASEMENT|FU
+ifbs=PARTIAL BASEMENT|PT
+***sourceField=[Basement Style Ii]
+***SystemName=[LFD_BASEMENTSTYLEII_4] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifbs=ALL FINISHED|FN
+ifbs=ALL UNFINISHED|UF
+ifbs=BOTH FIN AND UNFIN|PF
+***sourceField=[Basement Style Iii]
+***SystemName=[LFD_BASEMENTSTYLEIII_5] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifbs=DAYLIGHT BASEMENT|DL
+***sourceField=[Foundation]
+***SystemName=[LFD_FOUNDATION_68] Class=[MU_3]
+***SystemName=[LFD_FOUNDATION_19] Class=[RE_1]
+***SystemName=[LFD_FOUNDATION_118] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, MU_3 - MULTIFAMILY, RN_5 - RENTAL]
+ifbs=BASEMENT|FB
+
+daggField=if_cooling
+***sourceField=[Cooling]
+***SystemName=[LFD_COOLING_83] Class=[CI_4]
+***SystemName=[LFD_COOLING_65] Class=[MU_3]
+***SystemName=[LFD_COOLING_9] Class=[RE_1]
+***SystemName=[LFD_COOLING_108] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, MU_3 - MULTIFAMILY, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+ifcl=ATTIC FAN|AF
+ifcl=CEILING FAN|C6
+ifcl=CEILING FANS|C6
+ifcl=CENTRAL|CT
+ifcl=CENTRAL-ELECTRIC|CE
+ifcl=CENTRAL-GAS|CG
+ifcl=ELECTRIC|EA
+ifcl=GAS|GA
+ifcl=HEAT PUMP|HH
+ifcl=NO AIR|NO
+ifcl=NO COOLING|NO
+ifcl=OTHER|C8
+ifcl=WINDOW UNITS|WD
+ifcl=ZONED|ZN
+***sourceField=[Energy Green Features]
+***SystemName=[LFD_ENERGYGREENFEATURES_11] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifcl=CEILING FANS|C6
+
+daggField=if_energy
+***sourceField=[Energy Green Features]
+***SystemName=[LFD_ENERGYGREENFEATURES_11] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifeg=WHOLE HOUSE FAN|BA
+
+daggField=if_fireplace
+***sourceField=[Exterior Features]
+***SystemName=[LFD_EXTERIORFEATURES_12] Class=[RE_1]
+***SystemName=[LFD_EXTERIORFEATURES_113] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iffp=FIREPLACE|FF
+***sourceField=[Fireplace Details]
+***SystemName=[LFD_FIREPLACEDETAILS_17] Class=[RE_1]
+***SystemName=[LFD_FIREPLACEDETAILS_116] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iffp=BLOWER FAN|BL
+iffp=BRICK|EB
+iffp=GAS STARTER|GS
+iffp=INSERT|IS
+iffp=MARBLE|MR
+iffp=MASONARY|MA
+iffp=MASONRY|MA
+iffp=SEE-THROUGH|Y3
+iffp=STONE|ST
+iffp=TILE|TI
+iffp=VENTLESS|VL
+***sourceField=[Fireplace Location]
+***SystemName=[LFD_FIREPLACELOCATION_15] Class=[RE_1]
+***SystemName=[LFD_FIREPLACELOCATION_114] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iffp=BEDROOM|BD
+iffp=DEN|DN
+iffp=FAMILY ROOM|FR
+iffp=GREAT ROOM|GR
+iffp=KITCHEN|KT
+iffp=LIVING ROOM|LR
+iffp=MASTER BEDROOM|MB
+iffp=OUTDOORS|OF
+iffp=PATIO|OF
+iffp=PLAY/REC ROOM|FV
+***sourceField=[Fireplace Type]
+***SystemName=[LFD_FIREPLACETYPE_16] Class=[RE_1]
+***SystemName=[LFD_FIREPLACETYPE_115] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iffp=ELECTRIC|EL
+iffp=GAS LOGS|GL
+iffp=WOODBURNING|WN
+***sourceField=[Type 1 Features]
+***SystemName=[LFD_TYPE1FEATURES_77] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+iffp=DEN|DN
+iffp=FIREPLACE|FF
+***sourceField=[Type 2 Features]
+***SystemName=[LFD_TYPE2FEATURES_78] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+iffp=DEN|DN
+iffp=FIREPLACE|FF
+***sourceField=[Type 3 Features]
+***SystemName=[LFD_TYPE3FEATURES_79] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+iffp=DEN|DN
+iffp=FIREPLACE|FF
+
+daggField=if_floor
+***sourceField=[Floors]
+***SystemName=[LFD_FLOORS_86] Class=[CI_4]
+***SystemName=[LFD_FLOORS_18] Class=[RE_1]
+***SystemName=[LFD_FLOORS_117] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+iffl=BRICK|BF
+iffl=CARPET|KP
+iffl=CONCRETE|CR
+iffl=HARD TILE|TI
+iffl=HARDWOOD|HW
+iffl=HARDWOOD LAMINATE|LV
+iffl=HARDWOOD UNDER CARPET|WC
+iffl=MARBLE|MB
+iffl=OTHER|OT
+iffl=PARQUET|PQ
+iffl=PARTIAL CARPET|KP
+iffl=SLATE|I8
+iffl=STONE|SN
+iffl=STONE/TERRAZZO|SN
+iffl=TILE|TI
+iffl=TILE/VINYL|TI
+iffl=VINYL|LX
+iffl=VINYL/LINOLEUM|VL
+iffl=WALL-TO-WALL CARPET|WA
+iffl=WOOD|MJ
+
+daggField=if_general
+***sourceField=[Attic (Y/N)]
+***SystemName=[LM_Char1_4] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifgn=YES|AS
+***sourceField=[Basement Style Iii]
+***SystemName=[LFD_BASEMENTSTYLEIII_5] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifgn=PLUMBING STUBBED|PB
+***sourceField=[Bed/Bath Features]
+***SystemName=[LFD_BEDBATHFEATURES_6] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifgn=WALK-IN CLOSETS|WC
+***sourceField=[Ceilings]
+***SystemName=[LFD_CEILINGS_7] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifgn=CATHEDRAL/VAULTED|CC
+ifgn=CROWN MOLDING|CW
+ifgn=SMOOTH CEILINGS|ST
+***sourceField=[Interior]
+***SystemName=[LFD_INTERIOR_89] Class=[CI_4]
+***propertyType=[CI_4 - COMMERCIAL]
+ifgn=SHEETROCK|WE
+***sourceField=[Interior Features]
+***SystemName=[LFD_INTERIORFEATURES_21] Class=[RE_1]
+***SystemName=[LFD_INTERIORFEATURES_120] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+ifgn=BLINDS/MINIBLINDS|BL
+ifgn=ELEVATOR|EV
+ifgn=FRENCH DOORS|FC
+ifgn=HANDICAPPED|HA
+ifgn=HOME THEATER|HT
+ifgn=PULL DOWN STAIRS - ATTIC|PD
+ifgn=RECESS LIGHTING|RL
+ifgn=SAUNA/SPA|SU
+ifgn=SKYLIGHT|SK
+ifgn=SOUND SYSTEM|SS
+ifgn=STEAM|SU
+ifgn=TREY CEILING|CT
+ifgn=VAULTED CEILING|CC
+ifgn=WALK-IN CLOSET|WC
+ifgn=WET BAR|WT
+ifgn=WINDOW TREATMENTS-ALL|GK
+ifgn=WINDOW TREATMENTS-SOME|GK
+***sourceField=[Laundry Features]
+***SystemName=[LFD_LAUNDRYFEATURES_125] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+ifgn=FLOOR DRAIN|FI
+ifgn=WASHER HOOKUP|9H
+***sourceField=[Room 1]
+***SystemName=[LM_Char10_20] Class=[RE_1]
+***SystemName=[LM_Char10_20] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+ifgn=DEN/FAMILY|H5
+***sourceField=[Special Needs]
+***SystemName=[LFD_SPECIALNEEDS_40] Class=[RE_1]
+***SystemName=[LFD_SPECIALNEEDS_133] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+ifgn=BARRIER FREE COUNTERS|W2
+***sourceField=[Type 1 Features]
+***SystemName=[LFD_TYPE1FEATURES_77] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+ifgn=SEP DINING|NX
+***sourceField=[Type 2 Features]
+***SystemName=[LFD_TYPE2FEATURES_78] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+ifgn=SEP DINING|NX
+
+daggField=if_heating
+***sourceField=[Cooling]
+***SystemName=[LFD_COOLING_83] Class=[CI_4]
+***SystemName=[LFD_COOLING_65] Class=[MU_3]
+***SystemName=[LFD_COOLING_9] Class=[RE_1]
+***SystemName=[LFD_COOLING_108] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, MU_3 - MULTIFAMILY, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+ifht=HYDROHEAT|HY
+***sourceField=[Energy Green Features]
+***SystemName=[LFD_ENERGYGREENFEATURES_11] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifht=PROGRAMMABLE THERMOSTAT|FS
+***sourceField=[Heating]
+***SystemName=[LFD_HEATING_88] Class=[CI_4]
+***SystemName=[LFD_HEATING_69] Class=[MU_3]
+***SystemName=[LFD_HEATING_20] Class=[RE_1]
+***SystemName=[LFD_HEATING_119] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, MU_3 - MULTIFAMILY, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+ifht=CENTRAL|CE
+ifht=CENTRAL ELECTRIC|CT
+ifht=CENTRAL GAS|CG
+ifht=DUAL SYSTEMS|DS
+ifht=ELECTRIC|EC
+ifht=FLOOR FURNACE|FU
+ifht=FLOOR FURNANCE|FU
+ifht=FORCED AIR|FA
+ifht=GAS|NG
+ifht=GAS HEAT|NG
+ifht=GAS JETS|GJ
+ifht=HEAT PUMP|HP
+ifht=HYDROHEAT|HY
+ifht=HYDROHEAT SYSTEM|HY
+ifht=INDIVIDUAL UNITS|IN
+ifht=NO HEAT|NO
+ifht=OTHER|OT
+ifht=PROPANE GAS|BG
+ifht=SOLAR|SO
+ifht=SOLAR HEAT|SO
+ifht=SPACE HEATERS|SP
+ifht=STEAM HEAT|ST
+ifht=WALL FURNANCE|WF
+ifht=WINDOW UNITS|WN
+ifht=WOOD STOVE|WB
+ifht=ZONED|ZO
+
+daggField=if_levels
+***sourceField=[# Levels]
+***SystemName=[LM_Char10_1] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+iflv=1.5-STORY|OH
+iflv=1-STORY|A
+iflv=2-STORY|B
+***sourceField=[Design]
+***SystemName=[LFD_DESIGN_111] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+iflv=1 STORY|A
+iflv=1.5 STORY|OH
+iflv=2 STORY|B
+iflv=3 OR MORE STORY|3P
+iflv=SPLIT LEVEL|SL
+***sourceField=[Room 1 Lvl]
+***SystemName=[LM_char1_40] Class=[RE_1]
+***SystemName=[LM_char1_40] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 10 Lvl]
+***SystemName=[LM_char1_49] Class=[RE_1]
+***SystemName=[LM_char1_49] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 11 Lvl]
+***SystemName=[LM_char1_50] Class=[RE_1]
+***SystemName=[LM_char1_50] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 12 Lvl]
+***SystemName=[LM_char1_51] Class=[RE_1]
+***SystemName=[LM_char1_51] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 13 Lvl]
+***SystemName=[LM_char1_52] Class=[RE_1]
+***SystemName=[LM_char1_52] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 14 Lvl]
+***SystemName=[LM_char1_53] Class=[RE_1]
+***SystemName=[LM_char1_53] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 15 Lvl]
+***SystemName=[LM_char1_54] Class=[RE_1]
+***SystemName=[LM_char1_54] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 2 Lvl]
+***SystemName=[LM_char1_41] Class=[RE_1]
+***SystemName=[LM_char1_41] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 3 Lvl]
+***SystemName=[LM_char1_42] Class=[RE_1]
+***SystemName=[LM_char1_42] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 4 Lvl]
+***SystemName=[LM_char1_43] Class=[RE_1]
+***SystemName=[LM_char1_43] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 5 Lvl]
+***SystemName=[LM_char1_44] Class=[RE_1]
+***SystemName=[LM_char1_44] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 6 Lvl]
+***SystemName=[LM_char1_45] Class=[RE_1]
+***SystemName=[LM_char1_45] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 7 Lvl]
+***SystemName=[LM_char1_46] Class=[RE_1]
+***SystemName=[LM_char1_46] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 8 Lvl]
+***SystemName=[LM_char1_47] Class=[RE_1]
+***SystemName=[LM_char1_47] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+***sourceField=[Room 9 Lvl]
+***SystemName=[LM_char1_48] Class=[RE_1]
+***SystemName=[LM_char1_48] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+iflv=1|A
+iflv=2|B
+iflv=3|C
+
+daggField=if_pet
+***sourceField=[Pets Allowed (Y/N)]
+***SystemName=[LM_char1_37] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+ifpe=YES|PO
+
+daggField=if_security
+***sourceField=[Interior Features]
+***SystemName=[LFD_INTERIORFEATURES_21] Class=[RE_1]
+***SystemName=[LFD_INTERIORFEATURES_120] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+ifsc=SECURITY SYSTEM|SE
+
+daggField=if_utilities
+***sourceField=[Cooling]
+***SystemName=[LFD_COOLING_83] Class=[CI_4]
+***SystemName=[LFD_COOLING_65] Class=[MU_3]
+***SystemName=[LFD_COOLING_9] Class=[RE_1]
+***SystemName=[LFD_COOLING_108] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, MU_3 - MULTIFAMILY, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+ifut=ROOF VENTS|RV
+***sourceField=[Energy Green Features]
+***SystemName=[LFD_ENERGYGREENFEATURES_11] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifut=GENERATOR|GE
+ifut=POWER VENT|PV
+ifut=RIDGE VENT|YA
+ifut=TURBINES|YA
+***sourceField=[Utilities Available]
+***SystemName=[LFD_UTILITIESAVAILABLE_59] Class=[LD_2]
+***propertyType=[LD_2 - LAND/LOTS]
+ifut=CABLE|KY
+ifut=ELECTRICITY|EL
+ifut=GAS|XZ
+ifut=PHONE|TL
+ifut=SEWER|VG
+ifut=WATER|MC
+***sourceField=[Utilities On-Site]
+***SystemName=[LFD_UTILITIESONSITE_60] Class=[LD_2]
+***propertyType=[LD_2 - LAND/LOTS]
+ifut=CABLE|KY
+ifut=ELECTRICITY|EL
+ifut=GAS|XZ
+ifut=PHONE|TL
+ifut=SEWER|VG
+ifut=UNDERGROUND UTILS|UU
+ifut=WATER|MC
+
+daggField=if_water
+***sourceField=[Water]
+***SystemName=[LFD_WATER_61] Class=[LD_2]
+***SystemName=[LFD_WATER_136] Class=[RN_5]
+***propertyType=[LD_2 - LAND/LOTS, RN_5 - RENTAL]
+ifwt=NO WATER|NW
+ifwt=PRIVATE WATER|F5
+ifwt=PUBLIC WATER|F6
+ifwt=WELL WATER|E5
+***sourceField=[Water Heater]
+***SystemName=[LFD_WATERHEATER_137] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+ifwt=ELECTRIC|EW
+ifwt=GAS|GW
+ifwt=SOLAR|WL
+ifwt=TANKLESS|TL
+
+daggField=if_window
+***sourceField=[Energy Green Features]
+***SystemName=[LFD_ENERGYGREENFEATURES_11] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+ifww=DOUB PANED WINDOWS|DP
+ifww=ENERGY STAR WINDOWS|OT
+ifww=INSULATED DOOR|ID
+ifww=STORM DOOR|SD
+ifww=STORM WINDOWS|SW
+***sourceField=[Interior Features]
+***SystemName=[LFD_INTERIORFEATURES_21] Class=[RE_1]
+***SystemName=[LFD_INTERIORFEATURES_120] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+ifww=BAY WINDOW|BW
+ifww=PLANTATION SHUTTERS|TH
+
+daggField=in_age
+***sourceField=[Year Built Desc]
+***SystemName=[LM_char10_38] Class=[CI_4]
+***SystemName=[LM_char10_38] Class=[MU_3]
+***SystemName=[LM_char10_38] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, MU_3 - MULTIFAMILY, CI_4 - COMMERCIAL]
+inag=UNDER CONSTRUCTION|UC
+
+daggField=in_association
+***sourceField=[Amenities]
+***SystemName=[LFD_AMENITIES_46] Class=[LD_2]
+***SystemName=[LFD_AMENITIES_1] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+inas=CLUBHOUSE|CB
+inas=COMMUNITY POOL|PO
+inas=GOLF|GO
+inas=LAUNDRY FACILITIES|LF
+inas=MARINA|MA
+inas=PARK|T4
+***sourceField=[Pool Type]
+***SystemName=[LM_Char10_19] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+inas=COMMUNITY|PO
+
+daggField=in_community
+***sourceField=[Amenities]
+***SystemName=[LFD_AMENITIES_46] Class=[LD_2]
+***SystemName=[LFD_AMENITIES_1] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS]
+inco=TENNIS COURTS|YY
+
+daggField=in_handicap
+***sourceField=[Special Needs]
+***SystemName=[LFD_SPECIALNEEDS_40] Class=[RE_1]
+***SystemName=[LFD_SPECIALNEEDS_133] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+inhd=RAMPS|MR
+inhd=WIDE DOORS|RN
+
+daggField=in_owner_paid
+***sourceField=[Owner Pays]
+***SystemName=[LFD_OWNERPAYS_127] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+inop=CABLE|1P
+inop=ELECTRIC|EL
+inop=GAS|GA
+inop=HOA|7Q
+inop=LAWN CARE|LM
+inop=SEWER|SW
+inop=WATER|WT
+
+daggField=in_property_type
+MLSDaggField=mls_property_type
+***sourceField=[Resource Property Classes]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS, MU_3 - MULTIFAMILY, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+inpt=COMMERCIAL|COM
+MLSinpt=COMMERCIAL|HSA
+inpt=LAND/LOTS|LAN
+MLSinpt=LAND/LOTS|BOR
+inpt=MULTIFAMILY|INC
+MLSinpt=MULTIFAMILY|OQ2
+inpt=RENTAL|REN
+MLSinpt=RENTAL|7FM
+inpt=RESIDENTIAL|RES
+MLSinpt=RESIDENTIAL|O16
+
+daggField=in_status
+MLSDaggField=mls_status_type
+***sourceField=[Status]
+***SystemName=[L_Status] Class=[CI_4]
+***SystemName=[L_Status] Class=[LD_2]
+***SystemName=[L_Status] Class=[MU_3]
+***SystemName=[L_Status] Class=[RE_1]
+***SystemName=[L_Status] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS, MU_3 - MULTIFAMILY, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+inst=ACTIVE|A
+MLSinst=ACTIVE|R01
+inst=CANCELLED|K
+MLSinst=CANCELLED|R03
+inst=CONTINGENT|C
+MLSinst=CONTINGENT|CNT
+inst=EXPIRED|X
+MLSinst=EXPIRED|R07
+inst=EXPIRED - PROVISIONAL|X
+MLSinst=EXPIRED - PROVISIONAL|R10
+inst=HOLD|H
+MLSinst=HOLD|R08
+inst=LEASED|L
+MLSinst=LEASED|LSD
+inst=PENDING|P
+MLSinst=PENDING|R10
+inst=PROVISIONAL|1
+MLSinst=PROVISIONAL|PRO
+inst=SOLD|S
+MLSinst=SOLD|R04
+inst=WITHDRAWN|W
+MLSinst=WITHDRAWN|R11
+
+daggField=in_subtype
+MLSDaggField=mls_sub_type
+***sourceField=[Property Type]
+***SystemName=[L_Type_] Class=[CI_4]
+***SystemName=[L_Type_] Class=[LD_2]
+***SystemName=[L_Type_] Class=[RE_1]
+***SystemName=[L_Type_] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, LD_2 - LAND/LOTS, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+insb=ACREAGE|ACR
+MLSinsb=ACREAGE|H45
+insb=APARTMENT|APT
+MLSinsb=APARTMENT|DLQ
+insb=CONDO|CON
+MLSinsb=CONDO|JLZ
+insb=DUPLEX|DPL
+MLSinsb=DUPLEX|CZF
+insb=FARM|FRM
+MLSinsb=FARM|6LB
+insb=INDUSTRIAL|IND
+MLSinsb=INDUSTRIAL|CK8
+insb=LAND|NUH
+MLSinsb=LAND|K8L
+insb=LOTS|NUH
+MLSinsb=LOTS|FMJ
+insb=MANUFACTURED|MFG
+MLSinsb=MANUFACTURED|4RN
+insb=OFFICE|OFF
+MLSinsb=OFFICE|HI7
+insb=QUADPLEX|QPL
+MLSinsb=QUADPLEX|8H5
+insb=RETAIL|RET
+MLSinsb=RETAIL|ZV4
+insb=SINGLE FAMILY|SFR
+MLSinsb=SINGLE FAMILY|Y30
+insb=TOWNHOUSE|TWN
+MLSinsb=TOWNHOUSE|LI0
+insb=TRIPLEX|TPL
+MLSinsb=TRIPLEX|T7S
+insb=UPDATE|OTH
+MLSinsb=UPDATE|UE0
+
+daggField=in_tenant_paid
+***sourceField=[Tenant Pays]
+***SystemName=[LFD_TENANTPAYS_76] Class=[MU_3]
+***SystemName=[LFD_TENANTPAYS_135] Class=[RN_5]
+***propertyType=[MU_3 - MULTIFAMILY, RN_5 - RENTAL]
+intp=ALL UTILITIES|BK
+intp=CABLE|G2
+intp=CABLE/TV CONNECTION|G2
+intp=ELECTRIC|EL
+intp=GAS|GA
+intp=HOA|ER
+intp=HOT WATER|QT
+intp=LAWN CARE|R8
+intp=NO UTILITIES|OV
+intp=OTHER|OT
+intp=PEST CONTROL|LJ
+intp=SEWER|SE
+intp=TRASH COLLECTION|TS
+intp=TRASH REMOVAL|TS
+intp=WATER|WA
+intp=WATER/SEWER|3M
+
+daggField=rm_bathroom
+***sourceField=[Bath Features]
+***SystemName=[LFD_BATHFEATURES_105] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+rmbt=BIDET|BI
+rmbt=GARDEN TUB|GT
+rmbt=JETTED TUB|IB
+rmbt=LINEN CLOSET|LC
+rmbt=SKYLIGHT|SK
+rmbt=TUB/SHOWER COMBO|OW
+***sourceField=[Bed/Bath Features]
+***SystemName=[LFD_BEDBATHFEATURES_6] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+rmbt=DOUBLE SHOWER|DS
+rmbt=GARDEN TUB|GT
+rmbt=JETTED TUB|IB
+rmbt=LINEN CLOSET|LC
+rmbt=SEPARATE VANITIES|X8
+rmbt=SHARED BATH|SB
+rmbt=TUB/SHOWER COMBO|OW
+***sourceField=[Room 1]
+***SystemName=[LM_Char10_20] Class=[RE_1]
+***SystemName=[LM_Char10_20] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmbt=FULL BATH|FB
+rmbt=HALF BATH|HB
+***sourceField=[Special Needs]
+***SystemName=[LFD_SPECIALNEEDS_40] Class=[RE_1]
+***SystemName=[LFD_SPECIALNEEDS_133] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmbt=STALL SHOWER|SL
+
+daggField=rm_bedroom
+***sourceField=[Bed/Bath Features]
+***SystemName=[LFD_BEDBATHFEATURES_6] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+rmbd=SITTING AREA IN MASTER|5A
+rmbd=SPLIT BEDROOMS|SP
+***sourceField=[Design]
+***SystemName=[LFD_DESIGN_111] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+rmbd=SPLIT BEDROOM PLAN|SP
+***sourceField=[Interior Features]
+***SystemName=[LFD_INTERIORFEATURES_21] Class=[RE_1]
+***SystemName=[LFD_INTERIORFEATURES_120] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmbd=SPLIT BEDROOM|SP
+
+daggField=rm_general
+***sourceField=[Attic]
+***SystemName=[LFD_ATTIC_2] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+rmgn=WALK-IN|WY
+***sourceField=[Room 1]
+***SystemName=[LM_Char10_20] Class=[RE_1]
+***SystemName=[LM_Char10_20] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=2ND MASTER|77
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=MUSIC|DQ
+rmgn=OFFICE/STUDY|ON
+rmgn=PLAY/REC|RR
+***sourceField=[Room 10]
+***SystemName=[LM_Char10_29] Class=[RE_1]
+***SystemName=[LM_Char10_29] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 11]
+***SystemName=[LM_Char10_30] Class=[RE_1]
+***SystemName=[LM_Char10_30] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 12]
+***SystemName=[LM_char10_31] Class=[RE_1]
+***SystemName=[LM_char10_31] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 13]
+***SystemName=[LM_char10_32] Class=[RE_1]
+***SystemName=[LM_char10_32] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 14]
+***SystemName=[LM_char10_33] Class=[RE_1]
+***SystemName=[LM_char10_33] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 15]
+***SystemName=[LM_char10_34] Class=[RE_1]
+***SystemName=[LM_char10_34] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 2]
+***SystemName=[LM_Char10_21] Class=[RE_1]
+***SystemName=[LM_Char10_21] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 3]
+***SystemName=[LM_Char10_22] Class=[RE_1]
+***SystemName=[LM_Char10_22] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 4]
+***SystemName=[LM_Char10_23] Class=[RE_1]
+***SystemName=[LM_Char10_23] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 5]
+***SystemName=[LM_Char10_24] Class=[RE_1]
+***SystemName=[LM_Char10_24] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 6]
+***SystemName=[LM_Char10_25] Class=[RE_1]
+***SystemName=[LM_Char10_25] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 7]
+***SystemName=[LM_Char10_26] Class=[RE_1]
+***SystemName=[LM_Char10_26] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 8]
+***SystemName=[LM_Char10_27] Class=[RE_1]
+***SystemName=[LM_Char10_27] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Room 9]
+***SystemName=[LM_Char10_28] Class=[RE_1]
+***SystemName=[LM_Char10_28] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+***sourceField=[Rooms]
+***SystemName=[LFD_ROOMS_96] Class=[CI_4]
+***SystemName=[LFD_ROOMS_38] Class=[RE_1]
+***SystemName=[LFD_ROOMS_138] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, CI_4 - COMMERCIAL, RN_5 - RENTAL]
+rmgn=BASEMENT|AX
+rmgn=BONUS|BO
+rmgn=BREAKFAST ROOM|BM
+rmgn=EXERCISE|ER
+rmgn=GREAT ROOM|GN
+rmgn=IN-LAW SUITE|IL
+rmgn=KITCHEN|KI
+rmgn=LAUNDRY|LU
+rmgn=LIBRARY|LI
+rmgn=LIVING|LR
+rmgn=LIVING/DINING|LD
+rmgn=LOFT|LF
+rmgn=MEDIA|MR
+rmgn=MUD|MU
+rmgn=OFFICE/STUDY|ON
+rmgn=RECEPTION AREA|E2
+
+daggField=rm_kitchen
+***sourceField=[Kitchen Features]
+***SystemName=[LFD_KITCHENFEATURES_22] Class=[RE_1]
+***SystemName=[LFD_KITCHENFEATURES_122] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmkh=BREAKFAST BAR|BB
+rmkh=EATING AREA|EK
+rmkh=ISLAND|IL
+rmkh=PANTRY|BP
+***sourceField=[Room 1]
+***SystemName=[LM_Char10_20] Class=[RE_1]
+***SystemName=[LM_Char10_20] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmkh=2ND KITCHEN|K2
+***sourceField=[Type 1 Features]
+***SystemName=[LFD_TYPE1FEATURES_77] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+rmkh=EATING AREA-KITCHEN|EK
+rmkh=KITCHENETTE|KI
+***sourceField=[Type 2 Features]
+***SystemName=[LFD_TYPE2FEATURES_78] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+rmkh=EATING AREA-KITCHEN|EK
+rmkh=KITCHENETTE|KI
+
+daggField=rm_laundry
+***sourceField=[Interior]
+***SystemName=[LFD_INTERIOR_89] Class=[CI_4]
+***propertyType=[CI_4 - COMMERCIAL]
+rmld=OTHER|9Z
+***sourceField=[Interior Features]
+***SystemName=[LFD_INTERIORFEATURES_21] Class=[RE_1]
+***SystemName=[LFD_INTERIORFEATURES_120] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+rmld=DRYER CONNECTION|DC
+rmld=WASHER CONNECTION|WC
+***sourceField=[Laundry Features]
+***SystemName=[LFD_LAUNDRYFEATURES_125] Class=[RN_5]
+***propertyType=[RN_5 - RENTAL]
+rmld=CHUTE|CH
+***sourceField=[Laundry Location]
+***SystemName=[LFD_LAUNDRYLOCATION_27] Class=[RE_1]
+***propertyType=[RE_1 - RESIDENTIAL]
+rmld=BASEMENT|IB
+rmld=MAIN LEVEL|EI
+rmld=UPSTAIRS|US
+***sourceField=[Type 1 Features]
+***SystemName=[LFD_TYPE1FEATURES_77] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+rmld=WASHER/DRYER CONNECTION|WD
+***sourceField=[Type 2 Features]
+***SystemName=[LFD_TYPE2FEATURES_78] Class=[MU_3]
+***propertyType=[MU_3 - MULTIFAMILY]
+rmld=WASHER/DRYER CONNECTION|WD
+
+daggField=room_type
+***sourceField=[Room 1]
+***SystemName=[LM_Char10_20] Class=[RE_1]
+***SystemName=[LM_Char10_20] Class=[RN_5]
+***propertyType=[RE_1 - RESIDENTIAL, RN_5 - RENTAL]
+room_type BEDROOM|BD
+room_type DINING ROOM|DI
+room_type KEEPING ROOM|R0
+room_type MASTER BATH|MT
+room_type MASTER BEDROOM|MB
+---------------------------------
