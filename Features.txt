@@ -12,7 +12,7 @@ rmdn=1/DINING ROOM:|ui
 inst=ACTIVE-BREAK CLAUSE|Axa5tt
 MLSinst=ACTIVE-BREAK CLAUSE|esarg
 inst=COMING SOON-NO SHOWE|ex_pool
-MLSinst=COMING SOON-NO SHOW|garage
+MLSinst=COMING SOON-NO SHOW|garage_changes
 
 daggField=ex_construction
 ***sourceField=[Construction]
