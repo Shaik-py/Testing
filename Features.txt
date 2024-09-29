@@ -6,7 +6,7 @@ rmgn=KITCHEN:|KI
 rmgn=1/KITCHEN:|KI
 
 rmdn=DINING ROOM:|Shaik
-rmdn=1/DINING ROOM:|DA
+rmdn=1/DINING ROOM:|ui
 
 
 inst=ACTIVE-BREAK CLAUSE|Axa5tt
